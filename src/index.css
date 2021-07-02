@@ -1,13 +1,140 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ol, ul {
+  padding-left: 0px !important;
+}
+
+:root {
+  --main-footer: #1e1e1e;
+  --main-font: #b7b7b7;
+  --mian-link: #808080;
+  --mian-header: #232323;
+}
+
+.header {
+  border-bottom: 0.3px #1212 solid;
+}
+
+.header_li li {
+  padding: 0px 20px;
+}
+
+.header_li a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  color: var(--mian-header)
+}
+
+.header_li a:hover {
+  color: var(--mian-header);
+  border-bottom: 1px var(--mian-header) solid;
+}
+
+.header_li2 li {
+  padding-left: 7px;
+}
+
+.header_li2 a {
+  color: var(--main-footer)
+}
+
+.header_li2 a :hover {
+  color: var(--main-footer)
+}
+
+.product_cart {
+  background-color: #fff;
+}
+
+.cart {
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  color: #fff;
+  background-color: black;
+  font-size: 10px;
+  right: 55px;
+  top: 10px;
+}
+
+.cart_main {
+  height: 80vh;
+}
+
+.addcart_button {
+  background-color: black;
+  border: 1px black solid;
+  color: #fff;
+  padding: 14px 50px;
+  font-weight: "900";
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.addcart_button:hover {
+  border: 1px black solid;
+  background-color: white !important;
+  color: #000 !important;
+}
+
+.footer_top {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_network {
+  display: flex;
+}
+
+.footer_middle p {
+  color: var(--mian-link);
+  font-size: 14px;
+}
+
+.footer_p {
+  color: var(--main-font)
+}
+
+.footer_link a {
+  text-decoration: none;
+  color: var(--mian-link);
+  font-size: 14px;
+}
+
+.footer_link a:hover {
+  color: var(--main-font);
+}
+
+.social_network ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.social_network li {
+  padding: 0px 4px;
+}
+
+.social_network li:hover {
+  color: blue
+}
+
+.footer {
+  padding: 25px 0px;
+  background-color: var(--main-footer);
+  color: var(--main-font);
+}
+
+.bottom_footer {
+  background-color: #141414;
+  color: var(--mian-link);
+  font-size: 12px;
+  padding: 20px 0px;
 }
