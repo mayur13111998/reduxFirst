@@ -43,8 +43,8 @@ const Cart = () => {
     <div className="container-fluid cart_main">
       <div className="container py-4">
         <div className="row">
-          <div className="col-md-9">
-            <table className="table">
+          <div className="col-md-9 table-responsive">
+            <table className="table table-responsive">
               <thead style={{ backgroundColor: "#767676" }}>
                 <tr className="text-white">
                   <th>Product Name</th>

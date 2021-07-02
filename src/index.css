@@ -47,6 +47,19 @@ ol, ul {
   color: var(--main-footer)
 }
 
+.home {
+  background-image: url("https://hongo.b-cdn.net/wp-content/uploads/2019/11/home-page-fashion-deal-day-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+}
+.home h2 h1{
+  font-weight: 900 !important;
+}
+
+
+
 .product_cart {
   background-color: #fff;
 }
